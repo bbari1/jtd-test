@@ -1,8 +1,26 @@
-title: Just the Docs Template
-description: A starter template for a Jeykll site using the Just the Docs theme!
+title: Håndbok - AKA
+description: Ditt digitale oppslagsverk i Akademikerforbundet, skrevet for deg som tillitsvalgt.
 theme: just-the-docs
-
+logo: https://www.akademikerforbundet.no/grf/logo-rod.svg
+favicon_ico: https://www.akademikerforbundet.no/favicon.ico
 url: https://just-the-docs.github.io
 
+search_enabled: true
+
+search:
+  heading_level: 2
+  previews: 3
+  preview_words_before: 5
+  preview_words_after: 10
+  tokenizer_separator: /[\s/]+/
+  rel_url: true
+  button: false
+  focus_shortcut_key: 'k'
+
 aux_links:
-  Template Repository: https://github.com/just-the-docs/just-the-docs-template
+  "Tilbake til akademikerforbundet.no ->":
+    - "//akademikerforbundet.no"
+
+aux_links_new_tab: false
+
+footer_content: "Copyright &copy; Akademikerforbundet. </a>"
